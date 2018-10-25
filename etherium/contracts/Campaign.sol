@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.4.25;
 
 contract CampaignFactory {
     address[] public deployedCampaigns;
@@ -77,6 +77,4 @@ contract Campaign {
         request.recipient.transfer(request.value);
         request.complete = true;
     }
-    
-    
 }
