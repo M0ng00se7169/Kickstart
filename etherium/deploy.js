@@ -1,6 +1,6 @@
 const HDWalletProvider = require('truffle-hdwallet-provider')
 const Web3 = require('web3')
-const compiledFactory = require('./build/[object Object]2.json')
+const { interface, bytecode } = require('./compile')
 
 const provider = new HDWalletProvider(
     'call glow acoustic vintage front ring trade assist shuffle mimic volime'
