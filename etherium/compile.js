@@ -13,11 +13,11 @@ console.log(output.contracts)
 fs.ensureDirSync(buildPath)
 
 fs.outputJsonSync(
-    path.resolve(buildPath, output.contracts + 'Campaign.json'),
+    path.resolve(buildPath, 'Campaign.json'),
     output.contracts[":Campaign"]
 )
 
 fs.outputJsonSync(
-    path.resolve(buildPath, output.contracts + 'CampaignFactory.json'),
+    path.resolve(buildPath, 'CampaignFactory.json'),
     output.contracts[":CampaignFactory"]
 )
