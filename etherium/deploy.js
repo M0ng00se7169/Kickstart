@@ -4,7 +4,7 @@ const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
   'call glow acoustic vintage front ring trade assist shuffle mimic volume reject',
-  'https://rinkeby.infura.io/orDImgKRzwNrVCDrAk5Q'
+  'https://rinkeby.infura.io/v3/c032d11d54fe4cedaefe93eb68eab21e'
 );
 const web3 = new Web3(provider);
 
