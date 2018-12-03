@@ -45,6 +45,7 @@ class ContributeForm extends Component {
                 <Button primary loading={this.state.loading}>
                     Contribute!
                 </Button>
+                
             </Form>
         )
     }
