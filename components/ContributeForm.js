@@ -3,7 +3,7 @@ import { Form, Input, Message, Button } from 'semantic-ui-react'
 import Campaign from '../etherium/campaign'
 import web3 from '../etherium/web3'
 import { Router } from '../routes'
-import { runInThisContext } from 'vm';
+
 
 class ContributeForm extends Component {
     state = {
