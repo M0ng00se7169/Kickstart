@@ -19,7 +19,7 @@
     "mocha": "^6.2.3",
     "next": "^10.2.1",
     "next-routes": "^1.4.2",
-    "node-gyp": "^3.8.0",
+    "node-gyp": "^4.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "semantic-ui-css": "^2.4.1",
