@@ -16,15 +16,15 @@
     "express": "^4.17.3",
     "fs-extra": "^7.0.1",
     "ganache-cli": "^6.1.8",
-    "mocha": "^10.2.0",
-    "next": "^12.3.4",
+    "mocha": "^10.3.0",
+    "next": "^13.5.0",
     "next-routes": "^1.4.2",
-    "node-gyp": "^8.4.1",
+    "node-gyp": "^10.0.1",
     "react": "^16.6.3",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^0.88.2",
     "solc": "^0.8.17",
     "truffle-hdwallet-provider": "1.0.0",
-    "web3": "^1.8.1"
+    "web3": "^4.0.1"
   }
 }
